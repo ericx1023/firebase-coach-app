@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Coach</title>
+</head>
+<body>
+    <form id="createCoach">
+        Name:
+        <input type="text" name="name" id="name" /> <br/>
+        Picture:
+        <input type="file" name="picture" id="picture" /> <br/>
+        Age:
+        <input type="number" name="age" id="age" /><br/>
+        Lisence:
+        <input type="text" name="lisence" id="lisence"/><br/>
+        Description:
+        <textarea name="description" id="description" cols="30" rows="10"></textarea> <br/>
+
+        <input type="submit" value="Create Coach" />
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <script src="./assets/js/firebase.js"></script>
+    <script src="./assets/js/createCoach.js"></script>
+</body>
+</html>
